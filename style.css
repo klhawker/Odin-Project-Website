@@ -1,14 +1,44 @@
-.main-container{
+html, body{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
+html { overflow-y: scroll; }
+body { position: absolute; }
+
+header{
+    height: 100px;
+}
+
+header > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.1 0 auto;
+    align-items: flex-start;
+}
 .logo-img{
     height: 100px;
     width: 120px;
 }
-.header{
+.main-container{
+    flex: 1 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.img-text{
+    display: flex;
+}
+.indiv-text-img{
+    height: 200px;
+    width: 200px;
 }
