@@ -18,3 +18,32 @@ a{
     text-decoration: none;
     color: white;
 }
+.mid-first{
+    display: flex;
+    background-color: blue;
+    gap: 200px;
+    padding-inline: 40px;
+    padding-block: 80px;
+}
+.img-text{
+    display: flex;
+    padding-inline: 40px;
+    gap: 30px   ;
+}
+
+.mid-second{
+    padding-block: 80px;
+}
+.mid-second > h2{
+    text-align: center;
+    padding-top: 50px;
+}
+.indiv-text-img {
+    text-align: justify;
+    width: [width of img];
+}
+
+.indiv-text-img img {
+    display: block;
+    margin: 0 auto;
+}
