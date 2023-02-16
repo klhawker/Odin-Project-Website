@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: blue;
+    background-color: darkblue;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -20,15 +20,16 @@ a{
 }
 .mid-first{
     display: flex;
-    background-color: blue;
+    background-color: darkblue;
     gap: 200px;
-    padding-inline: 40px;
+    padding-inline: 80px;
     padding-block: 80px;
 }
 .img-text{
     display: flex;
-    padding-inline: 40px;
-    gap: 30px   ;
+    padding-inline: 80px;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .mid-second{
@@ -36,14 +37,33 @@ a{
 }
 .mid-second > h2{
     text-align: center;
-    padding-top: 50px;
+    
 }
 .indiv-text-img {
     text-align: justify;
-    width: [width of img];
+    width: 100px;
 }
 
 .indiv-text-img img {
     display: block;
     margin: 0 auto;
+}
+
+
+
+.mid-third{
+    padding-block: 80px;
+    padding-inline: 80px;
+    font-weight: 900;
+    font-size: x-large;
+    background-color: gainsboro;
+}
+
+footer > .inner-footer-box{
+    display: flex;
+    justify-content: center;
+    padding-block: 80px;
+    background-color: aqua;
+    width: 500px;
+    height: 50px;
 }
