@@ -1,69 +1,67 @@
+html * {
+    font-family: 'Roboto', arial;
+  }
+
+/* header */
 header{
+    background-color: rgb(6, 67, 27);
+}
+
+nav{
     display: flex;
     justify-content: space-around;
-    background-color: darkblue;
-    margin: 0;
-    padding: 0;
     align-items: center;
 }
-header > ul{
-    display: flex;
-    gap: 20px;
-}
-header > ul > li{
-    list-style-type: none;
 
+nav-right{
+    display: flex;
+    justify-content: space-around;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
-.mid-first{
+
+/* mid first */
+main{
     display: flex;
-    background-color: darkblue;
-    gap: 200px;
-    padding-inline: 80px;
-    padding-block: 80px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
-.img-text{
+
+.mid-first-background{
+    background-color: rgb(6, 67, 27);
+    width: 100%;
+}
+
+.mid-first{
+    color: white;
+    height: 500px;
     display: flex;
-    padding-inline: 80px;
-    justify-content: center;
-    justify-content: space-around;
+    align-items: center;
+    padding-inline: 200px   ;
+    
+    gap: 50px;
+    
+}
+.mid.first-left{
+    font-size: 20px;
 }
 
 .mid-second{
-    padding-block: 80px;
-}
-.mid-second > h2{
-    text-align: center;
-    
-}
-.indiv-text-img {
-    text-align: justify;
-    width: 100px;
-}
-
-.indiv-text-img img {
-    display: block;
-    margin: 0 auto;
-}
-
-
-
-.mid-third{
-    padding-block: 80px;
-    padding-inline: 80px;
-    font-weight: 900;
-    font-size: x-large;
-    background-color: gainsboro;
-}
-
-footer > .inner-footer-box{
+    height: 350px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-block: 80px;
-    background-color: aqua;
-    width: 500px;
-    height: 50px;
+    align-items: center ;
 }
+
+.mid-second > .img-text{
+    display: flex;
+}
+
+
+
+*{border:1px solid black;}
