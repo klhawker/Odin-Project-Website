@@ -1,2 +1,4 @@
-# Odin-Project-Website
-Basic web page using html and css
+# ILLEST VILLAIN
+MFDOOM STATIC WEBSITE USING HTML AND CSS.
+
+PROJECT FROM 'TOP'
